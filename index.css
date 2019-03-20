@@ -1,0 +1,589 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+.bg{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+#bHeart{
+    position: absolute;
+    left: 50%;
+    top: 36%;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+    z-index: 10;
+}
+.sHeart{
+    position: absolute;
+    left: 50%;
+    top: 36%;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+}
+ .sHeart1{
+      -webkit-animation: sHeart1 1s linear 2s;
+      animation: sHeart1 1s linear 2s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+}
+@-webkit-keyframes sHeart1{
+    0%{
+        left: 50%;
+        top: 36%;
+    }
+    100%{
+        left: 50%;
+        top: 25%;
+    }
+}
+@keyframes sHeart1{
+    0%{
+        left: 50%;
+        top: 36%;
+    }
+    100%{
+        left: 50%;
+        top: 25%;
+    }
+}
+
+ .sHeart2{
+      -webkit-animation: sHeart2 1s linear 2s;
+      animation: sHeart2 1s linear 2s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+}
+@-webkit-keyframes sHeart2{
+    0%{
+        left: 50%;
+        top: 36%;
+    }
+    100%{
+        left: 67%;
+        top: 20%;
+    }
+}
+@keyframes sHeart2{
+    0%{
+        left: 50%;
+        top: 36%;
+    }
+    100%{
+        left: 67%;
+        top: 20%;
+    }
+}
+ .sHeart3{
+      -webkit-animation: sHeart3 1s linear  2s;
+      animation: sHeart3 1s linear  2s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+}
+@-webkit-keyframes sHeart3{
+    0%{
+        left: 50%;
+        top: 36%;
+    }
+    100%{
+        left: 85%;
+        top: 21%;
+    }
+}
+@keyframes sHeart3{
+    0%{
+        left: 50%;
+        top: 36%;
+    }
+    100%{
+        left: 85%;
+        top: 21%;
+    }
+}
+ .sHeart4{
+      -webkit-animation: sHeart4 1s linear  2s;
+      animation: sHeart4 1s linear  2s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+}
+@-webkit-keyframes sHeart4{
+    0%{
+        left: 50%;
+        top: 36%;
+    }
+    100%{
+        left: 89%;
+        top: 31%;
+    }
+}
+@keyframes sHeart4{
+    0%{
+        left: 50%;
+        top: 36%;
+    }
+    100%{
+        left: 89%;
+        top: 31%;
+    }
+}
+ .sHeart5{
+      -webkit-animation: sHeart5 1s linear  2s;
+      animation: sHeart5 1s linear  2s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+}
+@-webkit-keyframes sHeart5{
+    0%{
+        left: 50%;
+        top: 36%;
+    }
+    100%{
+        left: 79%;
+        top: 40%;
+    }
+}
+@keyframes sHeart5{
+    0%{
+        left: 50%;
+        top: 36%;
+    }
+    100%{
+        left: 79%;
+        top: 40%;
+    }
+}
+ .sHeart6{
+      -webkit-animation: sHeart6 1s linear  2s;
+      animation: sHeart6 1s linear  2s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+}
+@-webkit-keyframes sHeart6{
+    0%{
+        left: 50%;
+        top: 36%;
+    }
+    100%{
+        left: 65%;
+        top: 48%;
+    }
+}
+@keyframes sHeart6{
+    0%{
+        left: 50%;
+        top: 36%;
+    }
+    100%{
+        left: 65%;
+        top: 48%;
+    }
+}
+ .sHeart7{
+      -webkit-animation: sHeart7 1s linear  2s;
+      animation: sHeart7 1s linear  2s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+}
+@-webkit-keyframes sHeart7{
+    0%{
+        left: 50%;
+        top: 36%;
+    }
+    100%{
+        left: 49%;
+        top: 52%;
+    }
+}
+@keyframes sHeart7{
+    0%{
+        left: 50%;
+        top: 36%;
+    }
+    100%{
+        left: 49%;
+        top: 52%;
+    }
+}
+ .sHeart8{
+      -webkit-animation: sHeart8 1s linear  2s;
+      animation: sHeart8 1s linear  2s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+}
+@-webkit-keyframes sHeart8{
+    0%{
+        left: 50%;
+        top: 36%;
+    }
+    100%{
+        left: 33%;
+        top: 48%;
+    }
+}
+@keyframes sHeart8{
+    0%{
+        left: 50%;
+        top: 36%;
+    }
+    100%{
+        left: 33%;
+        top: 48%;
+    }
+}
+ .sHeart9{
+      -webkit-animation: sHeart9 1s linear 2s;
+      animation: sHeart9 1s linear 2s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+}
+@-webkit-keyframes sHeart9{
+    0%{
+        left: 50%;
+        top: 36%;
+    }
+    100%{
+        left: 17%;
+        top: 41%;
+    }
+}
+@keyframes sHeart9{
+    0%{
+        left: 50%;
+        top: 36%;
+    }
+    100%{
+        left: 17%;
+        top: 41%;
+    }
+}
+ .sHeart10{
+      -webkit-animation: sHeart10 1s linear 2s;
+      animation: sHeart10 1s linear 2s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+}
+@-webkit-keyframes sHeart10{
+    0%{
+        left: 50%;
+        top: 36%;
+    }
+    100%{
+        left: 9%;
+        top: 33%;
+    }
+}
+@keyframes sHeart10{
+    0%{
+        left: 50%;
+        top: 36%;
+    }
+    100%{
+        left: 9%;
+        top: 33%;
+    }
+}
+ .sHeart11{
+      -webkit-animation: sHeart11 1s linear  2s;
+      animation: sHeart11 1s linear  2s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+}
+@-webkit-keyframes sHeart11{
+    0%{
+        left: 50%;
+        top: 36%;
+    }
+    100%{
+        left: 13%;
+        top: 23%;
+    }
+}
+@keyframes sHeart11{
+    0%{
+        left: 50%;
+        top: 36%;
+    }
+    100%{
+        left: 13%;
+        top: 23%;
+    }
+}
+ .sHeart12{
+      -webkit-animation: sHeart12 1s linear  2s;
+      animation: sHeart12 1s linear  2s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+}
+@-webkit-keyframes sHeart12{
+    0%{
+        left: 50%;
+        top: 36%;
+    }
+    100%{
+        left: 31%;
+        top: 21%;
+    }
+}
+@keyframes sHeart12{
+    0%{
+        left: 50%;
+        top: 36%;
+    }
+    100%{
+        left: 31%;
+        top: 21%;
+    }
+}
+
+/* 大小切换效果 */
+.scaleBigger {
+  -webkit-animation: scaleBigger 3s linear infinite 2s;
+  animation: scaleBigger 3s linear infinite 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes scaleBigger {
+  0% {
+    -webkit-transform: scale(1) translate3d(-50%,-50%,0);
+    transform: scale(1) translate3d(-50%,-50%,0);
+  }
+  50% {
+    -webkit-transform: scale(1.1) translate3d(-50%,-50%,0);
+    transform: scale(1.1) translate3d(-50%,-50%,0);
+  }
+  100% {
+    -webkit-transform: scale(1) translate3d(-50%,-50%,0);
+    transform: scale(1) translate3d(-50%,-50%,0);
+  }
+}
+@keyframes scaleBigger {
+  0% {
+    -webkit-transform: scale(1) translate3d(-50%,-50%,0);
+    transform: scale(1) translate3d(-50%,-50%,0);
+  }
+  50% {
+    -webkit-transform: scale(1.1) translate3d(-50%,-50%,0);
+    transform: scale(1.1) translate3d(-50%,-50%,0);
+  }
+  100% {
+    -webkit-transform: scale(1) translate3d(-50%,-50%,0);
+    transform: scale(1) translate3d(-50%,-50%,0);
+  }
+}
+#man{
+    position: absolute;
+    width: 9.4rem;
+    height: auto;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%,0,0);
+    transform: translate3d(-50%,0,0);
+    z-index: 10;
+}
+.bStar{
+    position: absolute;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-animation: bStar .8s linear;
+    animation: bStar .8s linear;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+ .bStar2{
+    left: 8%;
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s;
+}
+ .bStar3{
+    left: 19%;
+    -webkit-animation-delay: .4s;
+    animation-delay: .4s;
+}
+ .bStar4{
+    left: 31%;
+    -webkit-animation-delay: .6s;
+    animation-delay: .6s;
+}
+ .bStar5{
+    left: 43%;
+    -webkit-animation-delay: .8s;
+    animation-delay: .8s;
+}
+ .bStar6{
+    left: 54%;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+ .bStar7{
+    left: 70%;
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+ .bStar8{
+    left: 83%;
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+}
+ .bStar9{
+    left: 90%;
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+}
+@-webkit-keyframes bStar {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes bStar {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+audio{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1rem;
+}
+
+.flower{
+    position: absolute;
+    top: 0;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+
+}
+@-webkit-keyframes flower1{
+   0%{
+        top: 0%;
+        left: 85%;
+   }
+   50%{
+        top: 60%;
+        left: 55%;
+   }
+   100%{
+        top: 90%;
+        left: -20%;
+   }
+}
+@keyframes flower1{
+   0%{
+        top: 0%;
+        left: 85%;
+   }
+   50%{
+        top: 60%;
+        left: 55%;
+   }
+   100%{
+        top: 90%;
+        left: -20%;
+   }
+}
+.flower1{
+    left: 85%;
+    -webkit-animation: flower1 3s linear infinite 3s;
+    animation: flower1 3s linear infinite 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes flower2{
+   0%{
+        top: 0%;
+        left: 49%;
+   }
+   100%{
+        top: 120%;
+        left: 30%;
+   }
+}
+@keyframes flower2{
+   0%{
+        top: 0%;
+        left: 49%;
+   }
+   100%{
+        top: 120%;
+        left: 30%;
+   }
+}
+.flower2{
+    left: 49%;
+    -webkit-animation: flower2 3s linear infinite 2s;
+    animation: flower2 3s linear infinite 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes flower3{
+   0%{
+        top: 0%;
+        left: 80%;
+   }
+   100%{
+        top: 120%;
+        left: 10%;
+   }
+}
+@keyframes flower3{
+   0%{
+        top: 0%;
+        left: 80%;
+   }
+   100%{
+        top: 120%;
+        left: 10%;
+   }
+}
+
+.flower3{
+    left: 70%;
+    -webkit-animation: flower3 3s linear infinite 1s;
+    animation: flower3 3s linear infinite 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes flower4{
+   0%{
+        top: 0%;
+        left: 70%;
+   }
+   100%{
+        top: 110%;
+        left: -20%;
+   }
+}
+@keyframes flower4{
+   0%{
+        top: 0%;
+        left: 70%;
+   }
+   100%{
+        top: 110%;
+        left: -20%;
+   }
+}
+
+.flower4{
+    left: 70%;
+    -webkit-animation: flower4 3s linear infinite;
+    animation: flower4 3s linear infinite;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
